@@ -70,7 +70,6 @@ body{
 .development-section-container{
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-bottom: 88px;
     background-color: rgba(13, 19, 33, 0.02);
@@ -101,7 +100,6 @@ body{
 .first-card-content{
     width: 946px;
     height: 336px;
-    border: 2px solid red;
     padding: 48px;
     margin: 0 auto;
     display: flex;
@@ -147,7 +145,6 @@ body{
 .second-card-content{
     width: 946px;
     height: 336px;
-    border: 2px solid darkgoldenrod;
     padding: 48px;
     margin: 0 auto;
     display: flex;
@@ -192,7 +189,6 @@ body{
 .third-card-content{
     width: 946px;
     height: 336px;
-    border: 2px solid deeppink;
     padding: 48px;
     margin: 0 auto;
     display: flex;
@@ -227,6 +223,47 @@ body{
     background-color: white;
 }
 /* development section styles end */
+
+/* inspiration section styles start */
+.inspiration-section-container{
+    margin: 0 auto;
+    width: 1140px;
+    height: 777px;
+    margin-bottom: 150px;
+}
+.inspiration-text-content{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.inspiration-text-content h4{
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+.inspiration-text-content p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* iframe */
+.inspiration-iframe-content{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+}
+.inspiration-iframe-content iframe{
+    border-radius: 16px;
+}
+/* inspiration section styles end */
 
 
 
